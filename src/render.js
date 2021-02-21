@@ -351,7 +351,7 @@ function render(newNode, markdown, theme, heading_number, show_toc){
 
     if (!content_title) {
       var title = document.createElement('h1');
-      title.appendChild(document.createTextNode('Table of Content'));
+      title.appendChild(document.createTextNode('Table of Contents'));
       titleContainer.appendChild(title);
       titleContainer.appendChild(document.createElement('hr'));
     }

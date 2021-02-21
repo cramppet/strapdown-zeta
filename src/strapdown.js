@@ -213,7 +213,8 @@ bo.insertBefore(searchdiv1,bo.lastChild);
 
     var themeEl = document.getElementById('theme');
     if (themeEl) {
-      var themes = ['Chaitin', "Cerulean", "Cosmo", "Cyborg", "Darkly", "Flatly", "Journal", "Lumen", "Paper", "Readable", "Sandstone", "Simplex", "Slate", "Spacelab", "Superhero", "United", "Yeti"];
+      //var themes = ['Chaitin', "Cerulean", "Cosmo", "Cyborg", "Darkly", "Flatly", "Journal", "Lumen", "Paper", "Readable", "Sandstone", "Simplex", "Slate", "Spacelab", "Superhero", "United", "Yeti"];
+      var themes = ['United'];
       themes.forEach(function(val) {
         if (val == 'Reset') {
           var dvd = document.createElement("li");
